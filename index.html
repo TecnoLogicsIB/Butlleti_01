@@ -1,94 +1,89 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Butlletí 180 - Xarxa d’Escoles Verdes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Butlletí Escola Verda</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: "Segoe UI", sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 2rem;
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      padding: 1rem;
+      background-color: #f5f5f5;
       color: #333;
     }
 
     header {
-      background-color: #007A33;
+      background-color: #2e7d32;
       color: white;
-      padding: 2rem;
-      border-radius: 8px;
+      padding: 2rem 1rem;
       text-align: center;
     }
 
-    h1 {
+    header h1 {
       margin: 0;
+      font-size: 2rem;
     }
 
-    .section {
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
       background: white;
-      padding: 1.5rem;
-      margin-top: 1.5rem;
+      padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     h2 {
-      color: #007A33;
-    }
-
-    a {
-      color: #007A33;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    ul {
-      padding-left: 1.2rem;
+      color: #2e7d32;
+      margin-top: 0;
     }
 
     footer {
       text-align: center;
       font-size: 0.9rem;
+      color: #777;
       margin-top: 3rem;
-      color: #888;
+    }
+
+    @media screen and (max-width: 600px) {
+      section {
+        padding: 1rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Butlletí núm. 180</h1>
-    <p>Xarxa d’Escoles Verdes – Juliol 2025</p>
+    <h1>Butlletí Escola Verda – Juliol 2025</h1>
   </header>
 
-  <div class="section">
+  <section>
     <h2>🌱 Projectes destacats</h2>
-    <p>El projecte "Recicla i guanya" es desplega a més de 80 escoles de Catalunya. Un èxit de participació i impacte educatiu!</p>
-    <a href="#">Llegeix més →</a>
-  </div>
+    <p>Les escoles verdes continuen promovent la sostenibilitat amb iniciatives com horts escolars, energia solar i reducció de residus. Aquest mes, destaquem el projecte d'intercanvi entre centres del Baix Llobregat.</p>
 
-  <div class="section">
-    <h2>📚 Recursos educatius</h2>
-    <p>Nou dossier didàctic sobre biodiversitat urbana disponible per a primària i secundària.</p>
-    <a href="#">Descarrega el PDF</a>
-  </div>
+    <h2>📅 Esdeveniments recents</h2>
+    <p>El passat 15 de juny es va celebrar la trobada anual de centres al Parc Natural del Montseny, amb la participació de més de 70 escoles!</p>
 
-  <div class="section">
-    <h2>📅 Agenda</h2>
-    <ul>
-      <li>12 de setembre – Trobada d’Escoles Verdes a Vic</li>
-      <li>30 de setembre – Taller online: Energia i sostenibilitat</li>
-    </ul>
-  </div>
+    <h2>📸 Moments destacats</h2>
+    <p>Aquí pots veure algunes fotos que ens heu enviat. Continua compartint-les amb nosaltres!</p>
 
-  <div class="section">
-    <h2>🏫 Notícies dels centres</h2>
-    <p>L’Institut Can Puig obté el premi de bones pràctiques ambientals gràcies al seu hort ecològic escolar.</p>
-  </div>
+    <!-- Pots afegir imatges si vols -->
+    <!-- <img src="imatge1.jpg" alt="Foto escola" style="max-width: 100%; margin-top: 1rem;"> -->
+  </section>
 
   <footer>
-    Xarxa d’Escoles Verdes · Generalitat de Catalunya · <a href="#">Contacte</a>
+    © Xarxa d'Escoles Verdes · Departament d'Acció Climàtica · 2025
   </footer>
 
 </body>
